@@ -690,20 +690,19 @@
                 feedbackElement.innerHTML = `
                     <div class="feedback correct">
                         🎉 Correct! The answer was "${currentQuestion.phrase}"
+                        <br><br>
+                        <button class="btn" onclick="nextQuestion()">Next Question</button>
                     </div>
                 `;
             } else {
                 feedbackElement.innerHTML = `
                     <div class="feedback incorrect">
                         ❌ Not quite! The answer was "${currentQuestion.phrase}"
+                        <br><br>
+                        <button class="btn" onclick="nextQuestion()">Next Question</button>
                     </div>
                 `;
             }
-            
-            setTimeout(() => {
-                currentQuestionIndex++;
-                showCurrentQuestion();
-            }, 2000);
         }
 
         function skipQuestion() {
@@ -713,13 +712,15 @@
             feedbackElement.innerHTML = `
                 <div class="feedback incorrect">
                     ⏭️ Skipped! The answer was "${currentQuestion.phrase}"
+                    <br><br>
+                    <button class="btn" onclick="nextQuestion()">Next Question</button>
                 </div>
             `;
-            
-            setTimeout(() => {
-                currentQuestionIndex++;
-                showCurrentQuestion();
-            }, 2000);
+        }
+
+        function nextQuestion() {
+            currentQuestionIndex++;
+            showCurrentQuestion();
         }
 
         function handleKeyPress(event) {
