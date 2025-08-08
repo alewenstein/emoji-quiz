@@ -1,29 +1,14 @@
 {
   "quizItems": [
     {
-      "emoji": "🎂🎉",
-      "phrase": "Happy Birthday",
-      "category": "Celebrations"
+      "emoji": "🤒🧑‍🔬🧪🐕 ❄️ 🐕 ❄️ 🐕 ❄️ 🐕 ❄️ 🐕 ❄️ 🐕❄️ 🧪🤗",
+      "phrase": "The Iditarod",
+      "category": "World History"
     },
     {
-      "emoji": "☕😴",
-      "phrase": "Wake up call",
-      "category": "Daily Life"
-    },
-    {
-      "emoji": "🏠🏃‍♂️",
-      "phrase": "Home run",
-      "category": "Sports"
-    },
-    {
-      "emoji": "🌧️☂️",
-      "phrase": "Rain or shine",
-      "category": "Weather"
-    },
-    {
-      "emoji": "👁️❤️🇺🇸",
-      "phrase": "I love USA",
-      "category": "Expressions"
+      "emoji": "🚀🌝💥😰👨‍🔧🚀😌",
+      "phrase": "Apollo 13",
+      "category": "World History"
     }
   ]
 }
